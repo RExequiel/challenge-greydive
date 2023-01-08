@@ -1,0 +1,53 @@
+.auth {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .auth > form {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+ }
+ 
+ .auth > form > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0;
+ }
+
+ 
+ .auth > form > div > input,
+ .auth > form > div > select {
+   padding: 12px !important;
+   font-size: 14px;
+ }
+
+ .auth > form > div > label{
+   align-self: flex-start;
+ }
+ 
+ .auth h1 {
+    margin-bottom: 30px;
+    font-size: 25px;
+ }
+ 
+ .auth input,
+ .auth select {
+    border-radius: 3px;
+    border: solid .2px #48e;
+    cursor: pointer;
+    background-color: #eff4f6;
+ }
+ 
+ @media screen and (min-width: 600px) {
+    .auth > form {
+       width: 400px;
+    }
+ }

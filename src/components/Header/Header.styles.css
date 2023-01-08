@@ -1,0 +1,9 @@
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav--logo{
+    max-width: 70px;
+}
