@@ -11,8 +11,6 @@ import "./Form.styles.css";
 const Form = () => {
   const navigate = useNavigate();
 
-  console.log(items);
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -28,7 +26,6 @@ const Form = () => {
       country_of_origin
     };
 
-    console.log(usuario);
 
     firebaseGuardar("usuarios", usuario);
 

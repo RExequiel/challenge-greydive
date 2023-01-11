@@ -27,6 +27,7 @@
  .auth > form > div > select {
    padding: 12px !important;
    font-size: 14px;
+   outline: none;
  }
 
  .auth > form > div > label{

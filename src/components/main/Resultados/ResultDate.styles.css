@@ -1,3 +1,7 @@
 .result{
-    min-height: 550px;
+    min-height: 450px;
+}
+
+.result table thead tr td{
+    font-weight: bold;
 }
