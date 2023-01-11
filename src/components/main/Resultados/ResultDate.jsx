@@ -13,7 +13,6 @@ const ResultDate = () => {
     async function buscarUsuarios (){
         let resultado = await firebaseBuscar("usuarios");
         setUsuarios(resultado);
-        console.log(usuarios);
     }
 
     return ( 
