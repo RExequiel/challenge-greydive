@@ -21,8 +21,12 @@ const Form = () => {
     let birth_date = e.currentTarget.birth_date.value;
     let country_of_origin = e.currentTarget.country_of_origin.value;
     
-    let usuario = {};
-    usuario.push(full_name, email, birth_date, country_of_origin);
+    let usuario = {
+      full_name,
+      email,
+      birth_date,
+      country_of_origin
+    };
 
     console.log(usuario);
 
