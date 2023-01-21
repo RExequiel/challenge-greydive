@@ -1,7 +1,26 @@
 .result{
+    overflow: auto;
+    width: 320px;
     min-height: 450px;
+}
+.result table {
+    text-align: center;
+    background-color: #eee;
+    border-collapse: collapse;
+}
+
+.result table thead td, .result table tbody td {
+    padding: 10px;
 }
 
 .result table thead tr td{
     font-weight: bold;
+}
+
+@media all and (min-width: 768px) {
+    .result{
+        overflow: auto;
+        width: 720px;
+        min-height: 450px;
+    }
 }

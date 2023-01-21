@@ -10,7 +10,7 @@ const Header = () => {
                 <Link to="/">
                     <img className="header__nav--logo" src={logo} alt="logo-encuesta"/>
                 </Link>
-                <Link className="header__nav--result" to="resultDate"> Resultados de encuesta</Link>
+                <Link className="header__nav--result" to="resultDate"> Resultados del formulario</Link>
             </nav>
         </header>
      );
